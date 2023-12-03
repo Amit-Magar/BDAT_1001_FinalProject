@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BDAT_1001_FinalProject_Access.props" />
+</Project>
