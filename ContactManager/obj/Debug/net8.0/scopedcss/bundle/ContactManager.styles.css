@@ -1,0 +1,49 @@
+/* _content/ContactManager/Pages/Shared/_Layout.cshtml.rz.scp.css */
+a.navbar-brand[b-t2hag33jpz] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #ff6600; /* Vibrant Orange for Brand */
+}
+
+a[b-t2hag33jpz] {
+    color: #4c5866; /* Soothing Blue-Gray for Regular Links */
+}
+
+.btn-primary[b-t2hag33jpz] {
+    color: #ffffff;
+    background-color: #ff3366; /* Bold Pink for Primary Buttons */
+    border-color: #cc285a; /* Darker Pink for Button Border */
+}
+
+.nav-pills .nav-link.active[b-t2hag33jpz], .nav-pills .show > .nav-link[b-t2hag33jpz] {
+    color: #ffffff;
+    background-color: #ff3366; /* Active State with the Same Bold Pink */
+    border-color: #cc285a; /* Border Matching Active State */
+}
+
+.border-top[b-t2hag33jpz], .border-bottom[b-t2hag33jpz] {
+    border: 1px solid #e5e5e5; /* Subtle Gray Borders for Top and Bottom */
+}
+
+.box-shadow[b-t2hag33jpz] {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Soft Shadow for Depth */
+}
+
+button.accept-policy[b-t2hag33jpz] {
+    font-size: 1rem;
+    line-height: inherit;
+    color: #ffffff; /* White Text for Accept Policy Button */
+    background-color: #4caf50; /* Fresh Green for Accept Policy Button */
+    border-color: #388e3c; /* Darker Green for Button Border */
+}
+
+.footer[b-t2hag33jpz] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: #1a1a1a; /* Dark Gray for Footer Background */
+    color: #ffffff; /* White Text for Footer */
+}

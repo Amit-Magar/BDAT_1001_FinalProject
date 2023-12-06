@@ -1,0 +1,113 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+<style>
+    /* Add eye-catching styles to headings */
+    .section-title {
+        color: #3498db;
+        border-bottom: 2px solid #3498db;
+        display: inline-block;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+
+    /* Add margin to create space between sections */
+    .section {
+        margin-bottom: 60px;
+    }
+
+    /* Add margin to create space above the table */
+    .team-table {
+        margin-top: 60px;
+    }
+
+    /* Style for the team table */
+    .team-table-container {
+        overflow-x: auto;
+    }
+
+    .team-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+        .team-table th, .team-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+    /* Style for the team members section */
+    .team-section {
+        background-color: #f8f9fa;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .team-description {
+        font-size: 18px;
+        color: #555;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+</style>
+
+<div class="text-center section">
+    <h1 class="display-4">Welcome!</h1>
+    <p>Demonstration of BDAT 1001 Final Project.</p>
+</div>
+
+<div class="project-section section">
+    <h2 class="section-title">Project Overview</h2>
+    <div class="project-description">
+        <p>This project revolves around a robust CRUD (Create, Read, Update, Delete) application developed using the cutting-edge ASP.NET Core framework. Explore its key features below:</p>
+        <ul class="feature-list">
+            <li class="feature-item">Registered users can seamlessly view all approved data, with the added flexibility to effortlessly edit or remove their own entries.</li>
+            <li class="feature-item">Empowering managers with the authority to meticulously approve or reject contact data. Only the green-lighted contacts become visible to the registered users.</li>
+            <li class="feature-item">Administrators wield the highest level of access, wielding the power to green-light or red-light, as well as edit or obliterate any morsel of data within the system.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="team-section section">
+    <h2 class="section-title">Meet the Innovators</h2>
+    <div class="team-table-container">
+        <table class="team-table">
+            <thead>
+                <tr>
+                    <th class="team-name">Name</th>
+                    <th class="team-role">Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="team-member">Dinesh Saud</td>
+                    <td class="team-member-role">Project Maestro</td>
+                </tr>
+                <tr>
+                    <td class="team-member">Biplove Jaisi</td>
+                    <td class="team-member-role">Programmer</td>
+                </tr>
+                <tr>
+                    <td class="team-member">Amit Magar</td>
+                    <td class="team-member-role">Debugger & Tester</td>
+                </tr>
+                <tr>
+                    <td class="team-member">Suraj Tamang</td>
+                    <td class="team-member-role">Designer</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="team-section section">
+    <h2 class="section-title">Our Story</h2>
+    <p class="team-description">Get to know us! We're a dedicated team of experts on a journey to create innovative solutions. The mix of our diverse skills and roles is the secret to our success.</p>
+</div>
